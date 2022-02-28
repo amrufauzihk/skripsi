@@ -64,7 +64,7 @@
               ?>
               <tr>
                   <td><?php echo $no; ?></td>
-                  <td><img src="proses/<?php echo $data['url_fileupload'] ?>" alt="" width="100" srcset=""></td>
+                  <td><img src="proses/<?php echo $data['url_fileupload'] ?>" alt="" style="width: 150px; height: 100px;" srcset=""></td>
                   <td><img src="data:image/jpeg;base64, <?php echo $data['ocr_image'] ?>" width="200px" alt="" srcset=""></td>
                   <td><?php echo $data['ocr_text']; ?></td>
                   <td><?php echo TanggalIndo($tgl)."<br>".$waktu; ?></td>

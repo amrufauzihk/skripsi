@@ -84,12 +84,12 @@ body{
                     <h2 class="text-center">Hasil OCR</h2>
                         <div class="form-group">
                             <label for="">Hasil Text Gambar</label>
-                            <input type="text" name="ocr_text" class="form-control" id="ocr_text">
+                            <input type="text" name="ocr_text" class="form-control" id="ocr_text" readonly="on">
                         </div>
                         <div class="form-group">
                             
                             <label for="">Output Gambar</label><br>
-                            <img id="base64img">
+                            <img style="max-width: 500 !important; min-width: 500 !important;" id="base64img" >
                             <input type="hidden" name="ocr_image" id="ocr_image">
                             <input type="hidden" name="url_fileupload" id="url_fileupload">
                         </div>
